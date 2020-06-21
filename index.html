@@ -13,6 +13,7 @@
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <script src="js/main.js"></script>
 <!-- //js -->
 <!-- font-awesome icons -->
@@ -21,11 +22,16 @@
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
 <link href="css/font-face1.css" rel="stylesheet">
 <link href='css/font-face2.css' rel='stylesheet' type='text/css'>
- </head>
+
+</head>
 <body>
-<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-<link rel="stylesheet" href="css/owl.carousel.min.css">
-<link rel="stylesheet" href="css/owl.theme.default.css">
+
+
+<script>
+    $(document).ready(function(){
+
+});
+</script>
 <script src="js/owl.carousel.js"></script>
 <script>
 (function(){
@@ -257,30 +263,26 @@ excels over its competitors. </p>
 	<div>
 		<h2 class="ls_head"><span>Our </span>Clients</h2>
 		 <div class="brands">
-			 <div class="container" style="width:60%">
-				 <div class="row">
-					 <div class="col">
-						 <div class="brands_slider_container">
-							 <div class="owl-carousel owl-theme brands_slider">
-								 <div class="owl-item">
-									 <div class="brands_item d-flex flex-column justify-content-center"><img src="images/swati.png" alt=""></div>
-								 </div>
-								 <div class="owl-item">
-									 <div class="brands_item d-flex flex-column justify-content-center"><img src="images/euro.png" alt=""></div>
-								 </div>
-								 <div class="owl-item">
-									 <div class="brands_item d-flex flex-column justify-content-center"><img src="images/ab.jpg" alt=""></div>
-								 </div>
-								 <div class="owl-item">
-									 <div class="brands_item d-flex flex-column justify-content-center"><img src="images/clnt.png" alt=""></div>
-								 </div>
+			 <div class="container">
+				 <div class="carousel slide" data-ride="carousel" data-type="multi" data-interval="3000" id="myCarousel">
+					  <div class="carousel-inner">
+						<div class="item active">
+						  <div class="col-md-2 col-sm-6 col-xs-12"><a href="#"><img src="images/swati1.png" class="img-responsive"></a></div>
+						</div>
+						<div class="item">
+						  <div class="col-md-2 col-sm-6 col-xs-12"><a href="#"><img src="images/clnt1.png" class="img-responsive"></a></div>
+						</div>
+						<div class="item">
+						  <div class="col-md-2 col-sm-6 col-xs-12"><a href="#"><img src="images/euro.png" class="img-responsive"></a></div>
+						</div>
+						<div class="item">
+						  <div class="col-md-2 col-sm-6 col-xs-12"><a href="#"><img src="images/ab.jpg" class="img-responsive"></a></div>
+						</div>
 
-							 </div> <!-- Brands Slider Navigation -->
-		<!--                     <div class="brands_nav brands_prev"><i class="fas fa-chevron-left"></i></div>-->
-		<!--                     <div class="brands_nav brands_next"><i class="fas fa-chevron-right"></i></div>-->
-						 </div>
-					 </div>
-				 </div>
+					  </div>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+</div>
 			 </div>
 		 </div>
 	</div>
